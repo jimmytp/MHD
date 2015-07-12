@@ -629,6 +629,52 @@ ul {
 	margin: 5px;
 }
 
+/* Parent page from solofolio */
+.content-parent { max-width: 1025px }
+.content-parent .content { padding: 0 1rem }
+.content-parent .children {
+  margin-top: 0;
+  max-width: inherit !important;
+}
+.content-parent .children h3 { margin: 0 }
+.content-parent .children li {
+  display: inline-block;
+  max-width: 300px;
+  width: 32.8%;
+  padding: 0 1rem 2rem 1rem;
+  vertical-align: top;
+}
+.content-parent .children li img {
+  height: auto;
+  width: 100%;
+}
+.content-parent .children li:hover img { opacity: .7 }
+
+/* press */
+
+ul#press {
+	width:990px;
+	margin:0 -30px -50px 0;
+	overflow:hidden;
+	_zoom:1;
+}
+
+ul#press li {
+	float:left;
+	width:168px;
+	height:300px;
+/* 	overflow: hidden; */
+	margin:0 30px 50px 0;
+	text-align: center;
+}
+
+ul#press li span {
+	display:block;
+	font-size: 77%;
+	line-height: 1.6;
+	margin-top: 10px;
+}
+
 
 /* comments */
 
