@@ -90,6 +90,7 @@
    							);
   				$slider_posts = new WP_Query($args);
 			?>
+<?php /*
 <div id="slidecontainer">
   <?php if($slider_posts->have_posts()) : ?>
   <ul id='slider'>
@@ -102,7 +103,10 @@
   <?php wp_reset_postdata(); ?>
   <?php endif ?>
 </div>
+*/ ?>
+<?php /*
 <div id="frontwidget">
   <?php dynamic_sidebar( 'sidebar-1' ); ?>
 </div>
+*/?>
 <?php endif; ?>
