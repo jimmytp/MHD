@@ -1,0 +1,19 @@
+-Genericons Font
+--By Automattic http://genericons.com/
+--Licensed under GPL
+
+-Theme based on code from Twenty Twelve theme
+--By WordPress.org http://wordpress.org/themes/twentytwelve
+--Licensed under GPL
+
+-Superfish Menu
+--By Joel Birch http://users.tpg.com.au/j_birch/plugins/superfish/faq/
+--Dual licensed under the MIT and GPL licenses
+
+-Slippry Slider
+--By Booncon Rockets http://slippry.com/
+--Licensed under MIT
+
+-MobileMenu
+--By Matt Kersley https://github.com/mattkersley
+--Unlicense, Public domain
