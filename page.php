@@ -3,11 +3,13 @@
 <div id="content">
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   <div class="post" id="post-<?php the_ID(); ?>">
+    <?php /*
     <div id="slidecontainer">
       <ul id="slider">
         <?php minimaliste_get_images("$post->ID"); ?>
       </ul>
     </div>
+    */?>
     <div class="entry">
       <h1 class="entry-title">
         <?php the_title(); ?>
