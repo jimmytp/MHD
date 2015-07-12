@@ -3,11 +3,13 @@
 <div id="content">
   <?php while ( have_posts() ) : the_post(); ?>
   <div <?php post_class(); ?>>
+    <?php /*
     <div id="slidecontainer">
       <ul id="slider">
         <?php minimaliste_get_images("$post->ID"); ?>
       </ul>
     </div>
+    */ ?>
     <div class="entry">
       <div class="postdata">
         <?php the_date(); ?>
