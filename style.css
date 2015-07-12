@@ -199,9 +199,11 @@ a.facebookicon:before {
 	content: '\f204';
 }
 
+/*linkedin icon is change to blog icon */
 a.linkedinicon:before {
-	content: '\f207';
+	content: '\f100';
 }
+/* end of blog iocn */
 
 a.dribbleicon:before {
 	content: '\f201';
